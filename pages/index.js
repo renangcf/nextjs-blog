@@ -41,7 +41,7 @@ export default function Home() {
     processInput(event);
   }
 
-  function inicializar(firstTime) {
+  function Inicializar(firstTime) {
 
     if(firstTime){        
       // JS pegando o input do teclado
@@ -56,7 +56,7 @@ export default function Home() {
     }
   }
   
-  inicializar(true);
+  Inicializar(true);
     
   function processKey() {
       e = { "code": this.id };
