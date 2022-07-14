@@ -1,0 +1,107 @@
+#timer, #readySetGo{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#pointsH2{
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#points{
+    color:#1ed760;
+}
+
+#board {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    /* Box */
+    border: 2px solid lightgray;
+    width: 60px;
+    height: 60px;
+    margin: 2.5px;
+    border-radius: 15px;
+
+
+    /* Text */
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correct, .present, .absent{    
+    color: white;
+    border-color: white;
+}
+
+.correct {
+    background-color: #1ed760;
+}
+
+.present {
+    background-color: #f9ba04;
+}
+
+.absent {
+    background-color: #777e99;
+}
+
+.keyboard-row {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key-tile {
+    width: 36px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.enter-key-tile {
+    width: 76px;
+    height: 40px;
+    margin: 1px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key-tile:hover , .enter-key-tile:hover {
+    transform: scale(1.1);
+    transition: 100ms linear; 
+}

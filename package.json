@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "build-dev": "^0.3.3",
+    "D": "^1.0.0",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.13.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "jquery-ui-dist": "^1.13.1",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "imports-loader": "^4.0.0"
   }
 }
