@@ -17,6 +17,6 @@ Link para site hospedado: http://nextjs-blog-renangcf.vercel.app/
 
 Projeto realizado por:
 - Tiago Costa Carvalho, NºUsp: 11315102, tiagocoarv@usp.br
-- Renan Gomes Carneiro de Freitas, NºUsp: 11391085, mailto:renangcfreitas@usp.br
+- Renan Gomes Carneiro de Freitas, NºUsp: 11391085, renangcfreitas@usp.br
 
 Os componentes criados por ambos foi basicamente semalhante, já que a maioria do projeto foi realizado em conjunto e durante ligações.
