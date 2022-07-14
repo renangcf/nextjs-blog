@@ -1,2 +1,1 @@
-# nextjs-blog
-Speedle
+# Speedle
