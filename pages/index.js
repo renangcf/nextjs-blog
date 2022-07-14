@@ -43,17 +43,17 @@ export default function Home() {
 
   function Inicializar(firstTime) {
 
-    if(firstTime){        
-      // JS pegando o input do teclado
-      useEffect(() => {
-        if (typeof window !== "undefined") {
+    useEffect(() => {
+      if(firstTime){        
+        // JS pegando o input do teclado
+          if (typeof window !== "undefined") {
 
-          window.addEventListener("keyup", callProcessInput);
+            window.addEventListener("keyup", callProcessInput);
 
-          return () => window.removeEventListener("keyup", callProcessInput);
-        }
-      });
-    }
+            return () => window.removeEventListener("keyup", callProcessInput);
+          }
+      }
+    });
   }
   
   Inicializar(true);
