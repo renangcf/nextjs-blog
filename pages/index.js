@@ -19,7 +19,7 @@ export default function Home() {
   const height = 6; //numero de tentativas
   const width = 5; //tamanho das palavras
 
-  var initialTime = 30;
+  var initialTime = 60;
   var extraTimeOnCorrectWord = 30; //extra time on correct word!
 
   var gameTimer; //variavel para timer global de jogo;
